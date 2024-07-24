@@ -13,11 +13,19 @@ a{
     color: white;
 }
 
+/*-------------------
+      SECTIONS
+--------------------*/
 #Start{
     background-color: #1ABC9C;
     height: 400px;
 }
 
 #Portfolio{
-    height: 2000px;
+    height: 1000px;
+}
+
+#About{
+    height: 400px;
+    background-color: #1ABC9C;
 }
