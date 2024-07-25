@@ -37,17 +37,16 @@
 
     <main>
         <section id="Start" class="container-fluid bg-acquagreen text-white text-center py-4">
-
                   <figure class="row justify-content-center">
                       <img class="img-fluid col-4"  src="img/avatar.svg" alt="avatar">
                   </figure>
                 
                 <div class="row align-items-center">
                     <h2 class="col-12">START BOOTSTRAP</h2>
-                    <div class="col-12 mb-2">
-                        <span class="line-star"></span>
+                    <div class="col-12 mb-2 ">
+                        <div class="line-star"></div>
                         <i class="fa-solid fa-star fa-2m"></i>
-                        <span class="line-star"></span>
+                        <div class="line-star"></div>
                     </div>
                 </div>
     
@@ -57,23 +56,37 @@
                     <li class="list-inline-item"><a href="#">WEB DESIGNER</a></li>
                     <li class="list-inline-item"><p>-</p></li>
                     <li class="list-inline-item"><a href="#">ILLUSTRATOR</a></li>
-                </ul>
-                
-            
+                </ul> 
         </section>
 
-        <section id="Portfolio" class="container text-center py-4">
+        <section id="Portfolio" class="container text-center text-newgray py-4">
                 <h2>PORTFOLIO</h2>
-                <div class="row dashed-border">
-                    <div class="col"></div>
+                <div class="row">
+                    <div class="col mb-2">
+                        <span class="line-star"></span>
+                        <i class="fa-solid fa-star fa-2m"></i>
+                        <span class="line-star"></span>
+                    </div>
                 </div>
-                <div class="row align-items-center">
-                    <figure class="col-12 col-md-6 col-lg-4 dashed-border"></figure>
-                    <figure class="col-12 col-md-6 col-lg-4 dashed-border"></figure>
-                    <figure class="col-12 col-md-6 col-lg-4 dashed-border"></figure>
-                    <figure class="col-12 col-md-6 col-lg-4 dashed-border"></figure>
-                    <figure class="col-12 col-md-6 col-lg-4 dashed-border"></figure>
-                   <figure class="col-12 col-md-6 col-lg-4 dashed-border"></figure>
+                <div class="row   align-items-center">
+                    <figure class="col-12 col-md-6 col-lg-4">
+                        <img class="img-fluid" src="img/cabin.png" alt="Cabin">
+                    </figure>
+                    <figure class="col-12 col-md-6 col-lg-4">
+                        <img class="img-fluid" src="img/cake.png" alt="Cake">
+                    </figure>
+                    <figure class="col-12 col-md-6 col-lg-4">
+                        <img class="img-fluid" src="img/circus.png" alt="Circus">
+                    </figure>
+                    <figure class="col-12 col-md-6 col-lg-4">
+                        <img class="img-fluid" src="img/game.png" alt="Game">
+                    </figure>
+                    <figure class="col-12 col-md-6 col-lg-4">
+                        <img class="img-fluid" src="img/safe.png" alt="Safe">
+                    </figure>
+                   <figure class="col-12 col-md-6 col-lg-4">
+                       <img class="img-fluid" src="img/submarine.png" alt="Submarine">
+                   </figure>
                 </div>
             
         </section>
@@ -81,13 +94,16 @@
         <section id="About" class="bg-acquagreen"> 
             <div class="container text-white text-center py-4">
                 <h2>ABOUT</h2>
-                <div class="row">
-                    <div class="col"></div>
+                <div class="row ">
+                    <div class="col mb-2"></div>
                 </div>
-                <div class="row justify-content-center">
-                    <div class=" col-8 col-md-5 dashed-border"></div>
-                    <div class=" col-8 col-md-5 dashed-border">
-                        <p></p>
+                <div class="row justify-content-center text-start mb-2">
+                    <div class="col-8 col-md-5">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi iure perspiciatis similique odio modi autem sint maiores dicta ea pariatur magnam, deleniti nostrum, facere perferendis. Recusandae est neque atque.
+                        </p>
+                    </div>
+                    <div class="col-8 col-md-5">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem magni labore eum, debitis est, doloribus tempore cupiditate repellat mollitia repudiandae hic! Nam velit officia est expedita voluptatum optio ad explicabo?</p>
                     </div>
                 </div>
                 <div class="row justify-content-center">
@@ -101,7 +117,41 @@
 
         <section id="Contact">
             <div class="container py-4 ">
+                <h2>CONTACT</h2>
+                <div class="row">
+                    <div class="col"></div>
+                </div>
                 <div class="row justify-content-center">
+                    <div class="col-8">
+                        <form action="">
+                            <div class="mb-2">
+                                <input type="text" class="form-style ps-0" id="name" placeholder="Name">
+                            </div>
+                            <div class="mb-2">
+                                <input type="email" class="form-style" id="email" placeholder="E-mail Adress">
+                            </div>
+                            <div class="mb-2">
+                                <input type="tel" class="form-style" id="Phone" placeholder="Phone Number">
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-style" id="message" rows="5" placeholder="Message">
+                            </div>
+                        </form>
+
+                        <button type="submit" class="btn btn-ligth bg-acquagreen">Send</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    
+</body>
+</html>
+
+
+<!--<div class="row justify-content-center">
                     <div class="col">
                        <h2 class="text-center mb-5 text-newgray">CONTACT-ME</h2>
                        <div></div>
@@ -122,12 +172,4 @@
                         <a href="#">Send</a>
                        </div>
                    </div>
-                </div>
-            </div>
-        </section>
-
-
-    </main>
-    
-</body>
-</html>
+                </div>-->
