@@ -19,6 +19,13 @@ a{
     background-color: white;
 }
 
+.line-star-gray{
+    display: inline-block;
+    height: 4px;
+    width: 10%;
+    background-color: #2C3E50;
+}
+
 
 /*---------------------
   BACKGROUND and COLORS
