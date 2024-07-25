@@ -13,8 +13,9 @@ a{
 }
 
 .line-star{
+    display: inline-block;
     height: 4px;
-    width: 150px;
+    width: 10%;
     background-color: white;
 }
 
