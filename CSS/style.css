@@ -5,7 +5,6 @@
 
 header{
     height: 80px;
-    background-color: #2C3E50;
 }
 
 a{
@@ -13,27 +12,40 @@ a{
     color: white;
 }
 
-.btn.btn-green{
+.line-star{
+    height: 3px;
+    width: 10%;
+    background-color: white;
+}
+
+/*---------------------
+  BACKGROUND and COLORS
+-----------------------*/
+.bg-acquagreen{
     background-color: #1ABC9C;
 }
+
+.bg-newgray{
+    background-color: #2C3E50;
+}
+
+.text-newgray{
+    color: #2C3E50 ;
+}
+
 
 /*-------------------
       SECTIONS
 --------------------*/
-#Start{
-    background-color: #1ABC9C;
-}
-
 #Portfolio{
     height: 1000px;
 }
 
 #About{
     height: 400px;
-    background-color: #1ABC9C;
 }
 
 #Contact{
     height: 600px;
-    color: #2C3E50;
 }
+
