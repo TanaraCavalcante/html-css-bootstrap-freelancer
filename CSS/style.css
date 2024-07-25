@@ -13,10 +13,11 @@ a{
 }
 
 .line-star{
-    height: 3px;
-    width: 10%;
+    height: 4px;
+    width: 150px;
     background-color: white;
 }
+
 
 /*---------------------
   BACKGROUND and COLORS
@@ -37,15 +38,8 @@ a{
 /*-------------------
       SECTIONS
 --------------------*/
-#Portfolio{
-    height: 1000px;
-}
-
-#About{
-    height: 400px;
-}
-
-#Contact{
-    height: 600px;
+#Contact .form-style{
+    border-width: 0 0 1px 0;
+    
 }
 
