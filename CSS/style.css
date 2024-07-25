@@ -15,14 +15,14 @@ a{
 .line-star{
     display: inline-block;
     height: 4px;
-    width: 10%;
+    width: 15%;
     background-color: white;
 }
 
 .line-star-gray{
     display: inline-block;
     height: 4px;
-    width: 10%;
+    width: 15%;
     background-color: #2C3E50;
 }
 
@@ -48,6 +48,7 @@ a{
 --------------------*/
 #Contact .form-style{
     border-width: 0 0 1px 0;
-    
+    border-color: gray;
+    border-radius: 0;
 }
 

@@ -62,10 +62,10 @@
         <section id="Portfolio" class="container text-center text-newgray py-4">
                 <h2>PORTFOLIO</h2>
                 <div class="row">
-                    <div class="col mb-2">
-                        <span class="line-star"></span>
+                    <div class="col mb-4">
+                        <span class="line-star-gray"></span>
                         <i class="fa-solid fa-star fa-2m"></i>
-                        <span class="line-star"></span>
+                        <span class="line-star-gray"></span>
                     </div>
                 </div>
                 <div class="row   align-items-center">
@@ -94,10 +94,10 @@
         <section id="About" class="bg-acquagreen"> 
             <div class="container text-white text-center py-4">
                 <h2>ABOUT</h2>
-                <div class="col-12 mb-2">
-                    <div class="line-star-gray"></div>
+                <div class="col-12 mb-4">
+                    <div class="line-star"></div>
                     <i class="fa-solid fa-star"></i>
-                    <div class="line-star-gray"></div>
+                    <div class="line-star"></div>
                 </div>
 
                 <div class="row justify-content-center text-start mb-2">
@@ -119,29 +119,33 @@
         </section>
 
         <section id="Contact">
-            <div class="container py-4 ">
+            <div class="container text-center py-4 ">
                 <h2>CONTACT</h2>
                 <div class="row">
-                    <div class="col"></div>
+                    <div class="col mb-4">
+                        <span class="line-star-gray"></span>
+                        <i class="fa-solid fa-star fa-2m"></i>
+                        <span class="line-star-gray"></span>
+                    </div>
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-8">
-                        <form action="">
-                            <div class="mb-2">
-                                <input type="text" class="form-style ps-0" id="name" placeholder="Name">
-                            </div>
-                            <div class="mb-2">
-                                <input type="email" class="form-style" id="email" placeholder="E-mail Adress">
-                            </div>
-                            <div class="mb-2">
-                                <input type="tel" class="form-style" id="Phone" placeholder="Phone Number">
+                        <form>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                             </div>
                             <div class="mb-3">
-                                <textarea class="form-style" id="message" rows="5" placeholder="Message">
+                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
                             </div>
-                        </form>
-
-                        <button type="submit" class="btn btn-ligth bg-acquagreen">Send</button>
+                            <div class="mb-3 form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </form>
                     </div>
                 </div>
             </div>
