@@ -3,9 +3,6 @@
     border: 2px dashed blue;
 }
 
-header{
-    height: 80px;
-}
 
 a{
     text-decoration: none;
@@ -39,13 +36,16 @@ a{
 }
 
 .bg-newligthgray{
-
+    background-color: #3A546D;
 }
 
 .text-newgray{
     color: #2C3E50 ;
 }
 
+.text-acquagreen{
+    color: #1ABC9C;
+}
 
 .btn.btn-acquagreen{
     background-color: #1ABC9C;
@@ -56,6 +56,10 @@ a{
 /*-------------------
       SECTIONS
 --------------------*/
+header{
+    height: 80px;
+}
+
 #Contact .form-control{
     border-width: 0 0 1px 0;
     border-color: gray;
@@ -65,3 +69,8 @@ a{
 #bottom-footer{
     height: 60px;
 }
+
+#top-footer{
+    height: 240px;
+}
+
