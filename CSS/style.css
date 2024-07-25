@@ -42,11 +42,16 @@ a{
     color: #2C3E50 ;
 }
 
+.btn.btn-acquagreen{
+    background-color: #1ABC9C;
+    color: white;
+}
+
 
 /*-------------------
       SECTIONS
 --------------------*/
-#Contact .form-style{
+#Contact .form-control{
     border-width: 0 0 1px 0;
     border-color: gray;
     border-radius: 0;
