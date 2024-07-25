@@ -38,9 +38,14 @@ a{
     background-color: #2C3E50;
 }
 
+.bg-newligthgray{
+
+}
+
 .text-newgray{
     color: #2C3E50 ;
 }
+
 
 .btn.btn-acquagreen{
     background-color: #1ABC9C;
@@ -57,3 +62,6 @@ a{
     border-radius: 0;
 }
 
+#bottom-footer{
+    height: 60px;
+}
