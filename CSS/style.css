@@ -13,6 +13,11 @@ a{
     color: white;
 }
 
+.btn.btn-green{
+    color: white;
+    background-color: #1ABC9C;
+}
+
 /*-------------------
       SECTIONS
 --------------------*/
@@ -28,4 +33,9 @@ a{
 #About{
     height: 400px;
     background-color: #1ABC9C;
+}
+
+#Contact{
+    height: 600px;
+    color: #2C3E50;
 }
